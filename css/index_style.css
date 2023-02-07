@@ -4,7 +4,9 @@ a{color: #222;
   text-decoration: none;}
 
 body{font-family: Noto Sans KR;
-    font-size: 15px;}
+    font-size: 15px;
+    padding-top: 240px;
+    min-width: 1320px;}
 /*fixed*/
 .fixed{position: fixed;
     left: 0;
@@ -81,8 +83,8 @@ background-color: #fff;}
 
 
 /*section1*/
-#section1{margin-bottom: 180px;}
-#section1 img{width: 100%;}
+#section1{width: 100%; margin: 0 auto; height: 700px; position: relative;overflow: hidden; scroll-behavior: none;}
+iframe{width: 110%;height: 700px; position: absolute; top: -130px; left: 50%; margin-left: -54.5%;}
 
 /*section2*/
 #section2{width: 1320px;
@@ -98,7 +100,7 @@ background-color: #fff;}
         padding-top: 50px;
         box-sizing: border-box;
         position: absolute;
-        top: -100px;
+        top: -41px;
         left: 300px;
         box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.3);}
 .title h2{font-size: 35px;
